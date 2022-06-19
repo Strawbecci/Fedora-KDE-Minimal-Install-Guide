@@ -20,6 +20,8 @@ dnf install \
   dolphin \
   glibc-all-langpacks \
   gnome-keyring-pam \
+  firewalld \
+  kate \
   kcm_systemd \
   kde-gtk-config \
   kde-partitionmanager \
@@ -35,12 +37,13 @@ dnf install \
   kf5-baloo-file \
   kf5-kipi-plugins \
   khotkeys \
+  kinfocenter \
   kmenuedit \
   konsole5 \
   kscreen \
   kscreenlocker \
   ksshaskpass \
-  ksysguard \
+  plasma-systemmonitor \
   kwalletmanager5 \
   kwebkitpart \
   kwin \
@@ -49,9 +52,14 @@ dnf install \
   phonon-qt5-backend-gstreamer \
   pinentry-qt \
   plasma-breeze \
+  plasma-browser-integration \
   plasma-desktop \
   plasma-desktop-doc \
+  plasma-discover \
+  plasma-discover-notifier \
+  plasma-disks \
   plasma-drkonqi \
+  plasma-firewall \
   plasma-nm \
   plasma-nm-l2tp \
   plasma-nm-openconnect \
@@ -59,16 +67,19 @@ dnf install \
   plasma-nm-openvpn \
   plasma-nm-pptp \
   plasma-nm-vpnc \
+  plasma-oxygen \
+  oxygen-sounds \
   plasma-pa \
-  plasma-user-manager \
+  plasma-vault \
   plasma-workspace \
   plasma-workspace-geolocation \
   polkit-kde \
+  powerdevil \
   qt5-qtbase-gui \
   qt5-qtdeclarative \
   sddm \
   sddm-breeze \
   sddm-kcm \
-  setroubleshoot \
   sni-qt \
-  xorg-x11-drv-libinput
+  xorg-x11-drv-libinput \
+  xdg-desktop-portal-kde
