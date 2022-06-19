@@ -20,6 +20,7 @@ dnf install \
   dolphin \
   glibc-all-langpacks \
   gnome-keyring-pam \
+  gwenview \
   firewalld \
   kate \
   kcm_systemd \
