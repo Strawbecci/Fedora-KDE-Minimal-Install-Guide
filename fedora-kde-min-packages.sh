@@ -5,8 +5,12 @@ if ! [ $(id -u) = 0 ]; then
   exit 1
 fi
 
+# Enable Zawertun Repo
+
+dnf copr enable zawertun/kde -y
+
 # Install KDE Packages
-dnf install \
+dnf install -y \
   @"base-x" \
   @"Common NetworkManager Submodules" \
   @"Fonts" \
@@ -23,11 +27,9 @@ dnf install \
   gwenview \
   firewalld \
   kate \
-  kcm_systemd \
   kde-gtk-config \
   kde-partitionmanager \
   kde-print-manager \
-  kde-settings-pulseaudio \
   kde-style-breeze \
   kdegraphics-thumbnailers \
   kdeplasma-addons \
@@ -50,7 +52,7 @@ dnf install \
   kwin \
   NetworkManager-config-connectivity-fedora \
   pam-kwallet \
-  phonon-qt5-backend-gstreamer \
+  phonon-qt5-backend-vlc \
   pinentry-qt \
   plasma-breeze \
   plasma-browser-integration \
@@ -83,4 +85,24 @@ dnf install \
   sddm-kcm \
   sni-qt \
   xorg-x11-drv-libinput \
-  xdg-desktop-portal-kde
+  xdg-desktop-portal-kde \
+  kcalc \
+  kcharselect \
+  kleopatra \
+  khelpcenter \
+  kdiskmark \
+  ark \
+  okular \
+  firefox \
+  kdenetwork-filesharing \
+  samba \
+  elisa-player \
+  ffmpegthumbs \
+  kf5-kwayland \
+  kwayland-integration \
+  plasma-wayland-protocols \
+  kpipewire \
+  pipewire-pulse \
+  wireplumber \
+  pipewire-jack-audio-connection-kit \
+  pipewire-alsa
